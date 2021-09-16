@@ -4,8 +4,8 @@ except ImportError:
     print("Please install `unicorn-binance-rest-api`! https://pypi.org/project/unicorn-binance-rest-api/")
     sys.exit(1)
 
-binance_com_api_key = 'bDE8yhw95UM2kVHtM00A8RmKRxa4ouvNiF8A1OtOowAVdFwxCRI0QgoJAoR6Q7bn'
-binance_com_api_secret = 'uTENliEo4a2WnfxiLFiNhN61Y6Lo0AU8GUhOrpmi2RrqxJkxGH0kAAvqDvIAjswO'
+binance_com_api_key = ***
+binance_com_api_secret = ***
 
 from unicorn_binance_websocket_api.unicorn_binance_websocket_api_manager import BinanceWebSocketApiManager
 from unicorn_binance_rest_api.unicorn_binance_rest_api_manager import BinanceRestApiManager
