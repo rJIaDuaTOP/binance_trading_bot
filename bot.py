@@ -4,8 +4,8 @@ except ImportError:
     print("Please install `unicorn-binance-rest-api`! https://pypi.org/project/unicorn-binance-rest-api/")
     sys.exit(1)
 
-binance_com_api_key = ***
-binance_com_api_secret = ***
+binance_com_api_key = ...
+binance_com_api_secret = ...
 
 from unicorn_binance_websocket_api.unicorn_binance_websocket_api_manager import BinanceWebSocketApiManager
 from unicorn_binance_rest_api.unicorn_binance_rest_api_manager import BinanceRestApiManager
@@ -35,9 +35,9 @@ def print_stream_data_from_stream_buffer(binance_websocket_api_manager):
             print(oldest_stream_data_from_stream_buffer)
 
 '''SYMBOL PARAMETERS'''
-symbol = 'celrusdt'
-pr_p=5
-pr_s=0
+symbol = ... #символ
+pr_p=... #округление цены
+pr_s=... #округление сайза
 
 # create instances of BinanceWebSocketApiManager
 binance_com_websocket_api_manager = BinanceWebSocketApiManager(exchange="binance.com-futures",
